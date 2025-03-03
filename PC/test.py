@@ -5,7 +5,7 @@ def on_message(client, userdata, message):
     print(f"Resultado: {message.payload.decode()}")
 
 # Configurações do Broker MQTT
-broker_ip = "192.168.0.103"  # IP do broker MQTT
+broker_ip = ""  # IP do broker MQTT
 broker_port = 1883  # Porta do broker MQTT
 
 # Cria o cliente MQTT
