@@ -2,11 +2,11 @@
 #include <PubSubClient.h>
 
 // Configurações de Wi-Fi
-const char* ssid = "DIOGO_SERGIONET987427472"; // Nome da rede Wi-Fi
-const char* password = "963852DD"; // Senha da rede Wi-Fi
+const char* ssid = ""; // Nome da rede Wi-Fi
+const char* password = ""; // Senha da rede Wi-Fi
 
 // Configurações do Broker MQTT
-const char* mqtt_server = "192.168.0.103"; // IP do broker MQTT
+const char* mqtt_server = ""; // IP do broker MQTT
 const int mqtt_port = 1883; // Porta do broker MQTT
 
 WiFiClient espClient;
